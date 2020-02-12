@@ -34,4 +34,111 @@ img {
     max-width: 100%;
     vertical-align: top;
 }
+/*
+    Elements: typography
+    ---
+    Default markup for typographic elements
+*/
+
+h1 {
+    margin: 0 0 48px;
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4,
+h5,
+h6 {
+
+}
+
+p,
+ol,
+ul,
+dl,
+table,
+address,
+figure {
+
+}
+
+ul,
+ol,
+blockquote {
+
+}
+
+li ul,
+li ol{
+
+}
+
+blockquote {
+
+}
+
+figcaption {
+
+}
+
+hr {
+
+}
+
+a {
+    color: royalblue;
+    transition: all .1s ease-in-out;
+}
+a:visited,
+a:active {
+    color: blueviolet;
+}
+
+a:hover,
+a:focus {
+    color: crimson;
+}
+
+/*
+    Media Queries
+    ---
+    EXAMPLE Media Queries for Responsive Design.
+    These examples override the primary ('mobile first') styles.
+    Modify as content requires.
+*/
+
+
+/* Extra small devices (portrait phones, less than 576px)
+   No media query since this is the default in Bootstrap
+*/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    h1{
+        font-size: 58px;
+        line-height: 64;
+    }
+}
+
+/* Large devices (landscape tablets, desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
 

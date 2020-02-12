@@ -10,7 +10,7 @@ html {
     font-family: "Helvetica Neue", Helvetica, arial, sans-serif;/*neem het eerste. niet beschikbaar? neem het volgende*/
     color: #111;
     /*color: red;*/
-    padding: 24px, 24px, 0;/*witruimte (top right, bottom, left)*/
+    padding: 24px 24px 0;/*witruimte (top right, bottom, left)*/
     
 }
 
